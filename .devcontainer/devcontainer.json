@@ -1,0 +1,28 @@
+{
+    "name": "pyvmomi",
+    "dockerComposeFile": "./docker-compose.yml",
+    "service": "pyvmomi",
+    "workspaceFolder": "/app",
+    "forwardPorts": [
+        5000
+    ],
+    "extensions": [
+        "ms-python.python",
+        "vscode-icons-team.vscode-icons"
+    ],
+    "settings": {
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": true,
+            "strings": true
+        },
+        "editor.formatOnSave": true,
+        "python.linting.enabled": true,
+        "python.linting.pylintEnabled": false,
+        "python.linting.flake8Enabled": true,
+        "python.linting.lintOnSave": true,
+        "python.formatting.provider": "autopep8",
+        "python.pythonPath": "/usr/local/bin/python",
+        "python.jediEnabled": false
+    }
+}
